@@ -104,6 +104,9 @@ p {
   .homepage-intro h2 {
     font-size: 32px;
   }
+  .about-me {
+    padding: 10px;
+  }
   .about-me h1 {
     font-size: 48px;
   }
