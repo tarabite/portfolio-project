@@ -1,49 +1,40 @@
 :root {
-  --branding-color: #6c63ff;
-  --secondary-color: #f9f7fe;
-  --third-color: #272142;
+  --branding-color: #fdc57b;
+  --section-color: #fbf2d5;
+  --primary-color: #394a51;
+  --secondary-color: #7fa99b;
   --main-font: "Playfair Display", serif;
   --secondary-font: "Poppins", sans-serif;
 }
 
 body {
-  font-family: var(--main-font);
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  color: black;
-  font-family: var(--main-font);
-  font-weight: bold;
+  background-color: white;
 }
 
 h1 {
+  font-family: var(--main-font);
   font-size: 96px;
 }
 
+h2,
+h3,
 p {
-  font-weight: normal;
+  color: var(--primary-color);
+  font-family: var(--secondary-font);
 }
 
-.hero {
-  background: var(--secondary-color);
-  text-align: center;
+.homepage-intro {
+  background: var(--section-color);
+  text-align: left;
   padding: 160px 20px;
 }
-.hero p {
-  font-family: var(--secondary-font);
-  font-size: 36px;
-  font-weight: bold;
+
+.homepage-intro p {
+  font-size: 20px;
+  padding: 0;
   margin: 0;
-  color: var(--third-color);
 }
-.hero h2 {
-  font-weight: normal;
-  line-height: 2;
+.homepage-intro h2 {
   font-size: 24px;
 }
 
@@ -55,4 +46,10 @@ p {
   font-size: 18px;
   line-height: 27px;
   padding: 12px 20px;
+  margin: 5px;
+}
+
+.projects-preview {
+  margin: 60px auto;
+  text-align: center;
 }
