@@ -98,10 +98,16 @@ p {
 }
 
 @media (max-width: 576px) {
-  h1 {
+  .homepage-intro h1 {
     font-size: 48px;
   }
-  h2 {
+  .homepage-intro h2 {
+    font-size: 32px;
+  }
+  .about-me h1 {
+    font-size: 48px;
+  }
+  .about-me h2 {
     font-size: 32px;
   }
   .email-link {
