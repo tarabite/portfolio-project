@@ -53,3 +53,6 @@ p {
   margin: 60px auto;
   text-align: center;
 }
+.projects-preview h3 {
+  margin-top: 30px;
+}
