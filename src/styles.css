@@ -29,6 +29,12 @@ p {
   padding: 160px 20px;
 }
 
+.about-me {
+  background: var(--section-color);
+  text-align: left;
+  padding: 160px;
+}
+
 .homepage-intro p {
   font-size: 20px;
   padding: 0;
@@ -36,6 +42,8 @@ p {
 }
 .homepage-intro h2 {
   font-size: 24px;
+  padding: 0;
+  margin: 0;
 }
 
 .btn-branding {
@@ -49,10 +57,54 @@ p {
   margin: 5px;
 }
 
+.btn-learn {
+  background: var(--secondary-color);
+  border-radius: 4px;
+  color: white;
+  font-family: var(--secondary-font);
+  font-size: 14px;
+  line-height: 27px;
+  padding: 12px 20px;
+  margin: 5px;
+}
+
 .projects-preview {
   margin: 60px auto;
   text-align: center;
 }
 .projects-preview h3 {
   margin-top: 30px;
+}
+
+.about-paragraphs {
+  display: flex;
+  margin: 30px 0;
+}
+
+.about-paragraphs p {
+  margin: 10px;
+}
+
+.email-link {
+  display: flex;
+  justify-content: center;
+  color: var(--primary-color);
+  font-size: 28px;
+  text-decoration: none;
+}
+
+.email-link:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 48px;
+  }
+  h2 {
+    font-size: 32px;
+  }
+  .email-link {
+    font-size: 20px;
+  }
 }
