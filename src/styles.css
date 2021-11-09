@@ -97,6 +97,12 @@ p {
   text-decoration: underline;
 }
 
+footer {
+  display: block;
+  text-align: center;
+  padding: 30px;
+}
+
 @media (max-width: 576px) {
   .homepage-intro h1 {
     font-size: 48px;
