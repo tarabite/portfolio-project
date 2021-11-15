@@ -37,7 +37,7 @@ p {
 .homepage-intro {
   background: var(--section-color);
   text-align: left;
-  padding: 160px 20px;
+  padding: 160px 20px 100px 20px;
 }
 .homepage-intro p {
   font-size: 20px;
@@ -142,11 +142,6 @@ footer i:hover {
 footer .footer-base {
   font-size: 12px;
 }
-footer .footer-base i {
-  background: none;
-  margin: none;
-  padding: none;
-}
 
 @media (max-width: 576px) {
   .homepage-intro h1 {
@@ -179,11 +174,6 @@ footer .footer-base i {
   }
   footer .footer-base {
     font-size: 10px;
-  }
-  footer .footer-base i {
-    font-size: 10px;
-    margin: 0;
-    padding: 0;
   }
   .intro {
     padding: 60px;
