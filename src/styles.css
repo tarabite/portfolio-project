@@ -101,6 +101,9 @@ footer {
   .email-link {
     font-size: 18px;
   }
+  .intro {
+    padding: 100px;
+  }
   .intro h1 {
     font-size: 32px;
   }
