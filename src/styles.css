@@ -141,3 +141,14 @@ footer {
   text-align: center;
   padding: 160px 20px;
 }
+
+/*CONTACT PAGE*/
+.contact-link p {
+  text-decoration: none;
+  color: var(--primary-color);
+  font-size: 28px;
+}
+
+.contact-link:hover p {
+  color: var(--secondary-color);
+}
