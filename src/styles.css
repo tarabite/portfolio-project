@@ -29,24 +29,17 @@ p {
 
 /*HOMEPAGE*/
 
-.content-intro {
+.homepage-intro {
   background: var(--section-color);
   text-align: left;
   padding: 160px 20px;
 }
-
-.about-me {
-  background: var(--section-color);
-  text-align: left;
-  padding: 160px;
-}
-
-.content-intro p {
+.homepage-intro p {
   font-size: 20px;
   padding: 0;
   margin: 0;
 }
-.content-intro h2 {
+.homepage-intro h2 {
   font-size: 24px;
   padding: 0;
   margin: 0;
@@ -89,17 +82,18 @@ footer {
 }
 
 @media (max-width: 576px) {
-  .content-intro h1 {
+  .homepage-intro h1 {
     font-size: 32px;
   }
-  .content-intro h2 {
+  .homepage-intro h2 {
     font-size: 24px;
   }
   .about-me {
-    padding: 10px;
+    padding: 0;
+    margin: 160px auto;
   }
   .about-me h1 {
-    font-size: 48px;
+    font-size: 32;
   }
   .about-me h2 {
     font-size: 24px;
@@ -107,15 +101,12 @@ footer {
   .email-link {
     font-size: 18px;
   }
+  .intro h1 {
+    font-size: 32px;
+  }
 }
 
 /*ABOUT PAGE*/
-
-.about-section {
-  background: var(--section-color);
-  text-align: center;
-  padding: 160px;
-}
 
 .about-paragraphs {
   display: flex;
@@ -139,15 +130,14 @@ footer {
   text-decoration: underline;
 }
 
-/*PROJECTS*/
+/*PROJECTS & CONTACT PAGE*/
 
-.projects-intro {
+.intro {
   background: var(--section-color);
   text-align: center;
   padding: 160px 20px;
 }
 
-/*CONTACT PAGE*/
 .contact-link a {
   text-decoration: none;
   color: var(--primary-color);
