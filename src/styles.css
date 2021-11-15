@@ -14,7 +14,7 @@ body {
 h1 {
   color: var(--primary-color);
   font-family: var(--main-font);
-  font-size: 96px;
+  font-size: 60px;
 }
 
 h2,
