@@ -178,10 +178,12 @@ footer .footer-base i {
     font-size: 18px;
   }
   footer .footer-base {
-    font-size: 8px;
+    font-size: 10px;
   }
   footer .footer-base i {
-    font-size: 8px;
+    font-size: 10px;
+    margin: 0;
+    padding: 0;
   }
   .intro {
     padding: 60px;
