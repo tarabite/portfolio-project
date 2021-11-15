@@ -148,7 +148,7 @@ footer .footer-base {
 .intro {
   background: var(--section-color);
   text-align: center;
-  padding: 100px 20px;
+  padding: 160px 20px 80px 20px;
 }
 
 .about-paragraphs {
