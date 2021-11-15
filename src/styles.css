@@ -12,6 +12,7 @@ body {
 }
 
 h1 {
+  color: var(--primary-color);
   font-family: var(--main-font);
   font-size: 96px;
 }
@@ -21,6 +22,10 @@ h3,
 p {
   color: var(--primary-color);
   font-family: var(--secondary-font);
+}
+
+p {
+  color: black;
 }
 
 .navbar-brand i {
@@ -124,7 +129,6 @@ footer i {
   color: white;
   font-size: 28px;
   margin: 20px;
-
   padding: 12px 14px;
   text-align: center;
   text-decoration: none;
@@ -132,6 +136,14 @@ footer i {
 footer i:hover {
   background-color: var(--secondary-color);
   transition: all 150ms ease-in-out;
+}
+footer .footer-base {
+  font-size: 12px;
+}
+footer .footer-base i {
+  background: none;
+  margin: none;
+  padding: none;
 }
 
 @media (max-width: 576px) {
@@ -143,7 +155,7 @@ footer i:hover {
   }
   .about-me {
     padding: 0;
-    margin: 160px auto;
+    margin: 60px auto;
   }
   .about-me h1 {
     font-size: 48px;
@@ -164,14 +176,20 @@ footer i:hover {
     font-size: 18px;
   }
   .intro {
-    padding: 100px;
+    padding: 60px;
   }
   .intro h1 {
     font-size: 48px;
   }
 }
 
-/*ABOUT PAGE*/
+/*ABOUT, PROJECTS, & CONTACT PAGE*/
+
+.intro {
+  background: var(--section-color);
+  text-align: center;
+  padding: 100px 20px;
+}
 
 .about-paragraphs {
   display: flex;
@@ -194,14 +212,6 @@ footer i:hover {
 .email-link:hover {
   text-decoration: underline;
   transition: all 150ms ease-in-out;
-}
-
-/*PROJECTS & CONTACT PAGE*/
-
-.intro {
-  background: var(--section-color);
-  text-align: center;
-  padding: 160px 20px;
 }
 
 p i {
