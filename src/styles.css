@@ -143,46 +143,6 @@ footer .footer-base {
   font-size: 12px;
 }
 
-@media (max-width: 576px) {
-  .homepage-intro h1 {
-    font-size: 48px;
-  }
-  .homepage-intro h2 {
-    font-size: 24px;
-  }
-  .about-me {
-    padding: 0;
-    margin: 60px auto;
-  }
-  .about-me h1 {
-    font-size: 48px;
-  }
-  .about-me h2 {
-    font-size: 24px;
-  }
-  footer {
-    font-size: 18px;
-  }
-  footer .contact-box {
-    padding: 30px;
-  }
-  footer h3 {
-    font-size: 24px;
-  }
-  footer p {
-    font-size: 18px;
-  }
-  footer .footer-base {
-    font-size: 10px;
-  }
-  .intro {
-    padding: 60px;
-  }
-  .intro h1 {
-    font-size: 48px;
-  }
-}
-
 /*ABOUT, PROJECTS, & CONTACT PAGE*/
 
 .intro {
@@ -228,4 +188,46 @@ p i {
 a:hover {
   color: var(--secondary-color);
   transition: all 150ms ease-in-out;
+}
+
+/*Consitions for small screens*/
+
+@media (max-width: 576px) {
+  .homepage-intro h1 {
+    font-size: 48px;
+  }
+  .homepage-intro h2 {
+    font-size: 24px;
+  }
+  .about-me {
+    padding: 0;
+    margin: 60px auto;
+  }
+  .about-me h1 {
+    font-size: 48px;
+  }
+  .about-me h2 {
+    font-size: 24px;
+  }
+  footer {
+    font-size: 18px;
+  }
+  footer .contact-box {
+    padding: 30px;
+  }
+  footer h3 {
+    font-size: 24px;
+  }
+  footer p {
+    font-size: 18px;
+  }
+  footer .footer-base {
+    font-size: 10px;
+  }
+  .intro {
+    padding: 60px;
+  }
+  .intro h1 {
+    font-size: 48px;
+  }
 }
