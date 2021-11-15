@@ -24,7 +24,7 @@ p {
 }
 /*HOMEPAGE*/
 
-.homepage-intro {
+.content-intro {
   background: var(--section-color);
   text-align: left;
   padding: 160px 20px;
@@ -36,12 +36,12 @@ p {
   padding: 160px;
 }
 
-.homepage-intro p {
+.content-intro p {
   font-size: 20px;
   padding: 0;
   margin: 0;
 }
-.homepage-intro h2 {
+.content-intro h2 {
   font-size: 24px;
   padding: 0;
   margin: 0;
@@ -84,10 +84,10 @@ footer {
 }
 
 @media (max-width: 576px) {
-  .homepage-intro h1 {
+  .content-intro h1 {
     font-size: 48px;
   }
-  .homepage-intro h2 {
+  .content-intro h2 {
     font-size: 32px;
   }
   .about-me {
