@@ -94,6 +94,8 @@ footer {
   color: var(--primary-color);
   display: block;
   padding: 30px;
+  margin: 0 auto;
+  max-width: 800px;
 }
 footer .contact-box {
   background: var(--section-color);
@@ -176,6 +178,9 @@ footer .footer-base i {
     font-size: 18px;
   }
   footer .footer-base {
+    font-size: 8px;
+  }
+  footer .footer-base i {
     font-size: 8px;
   }
   .intro {
