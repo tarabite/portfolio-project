@@ -22,6 +22,11 @@ p {
   color: var(--primary-color);
   font-family: var(--secondary-font);
 }
+
+.navbar-brand i {
+  color: var(--secondary-color);
+}
+
 /*HOMEPAGE*/
 
 .content-intro {
@@ -143,12 +148,12 @@ footer {
 }
 
 /*CONTACT PAGE*/
-.contact-link p {
+.contact-link a {
   text-decoration: none;
   color: var(--primary-color);
   font-size: 28px;
 }
 
-.contact-link:hover p {
+a:hover {
   color: var(--secondary-color);
 }
