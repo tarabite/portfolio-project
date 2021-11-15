@@ -175,6 +175,9 @@ footer .footer-base i {
   footer p {
     font-size: 18px;
   }
+  footer .footer-base {
+    font-size: 8px;
+  }
   .intro {
     padding: 60px;
   }
