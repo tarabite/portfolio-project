@@ -88,15 +88,25 @@ p {
 footer {
   color: var(--primary-color);
   display: block;
-  font-size: 24px;
-  width: 400px;
-  text-align: center;
   padding: 30px;
-  margin: 60px auto;
+}
+footer .contact-box {
+  background: var(--section-color);
+  border-radius: 10px;
+  margin: 30px auto 0;
+  padding: 30px 120px;
+}
+footer h3 {
+  font-family: var(--main-font);
+  font-size: 48px;
+}
+footer p {
+  font-size: 24px;
+  margin: 0;
 }
 footer .email-link {
   color: var(--primary-color);
-  font-size: 32px;
+  font-size: 24px;
   margin-bottom: 10px;
   text-decoration: none;
 }
@@ -105,14 +115,19 @@ footer .email-link:hover {
   text-decoration: none;
   transition: all 150ms ease-in-out;
 }
+footer .social-links {
+  text-align: center;
+}
 footer i {
   background-color: var(--branding-color);
   border-radius: 50%;
   color: white;
   font-size: 28px;
+  margin: 20px;
+
   padding: 12px 14px;
+  text-align: center;
   text-decoration: none;
-  margin: 0 20px;
 }
 footer i:hover {
   background-color: var(--secondary-color);
@@ -137,6 +152,15 @@ footer i:hover {
     font-size: 24px;
   }
   footer {
+    font-size: 18px;
+  }
+  footer .contact-box {
+    padding: 30px;
+  }
+  footer h3 {
+    font-size: 24px;
+  }
+  footer p {
     font-size: 18px;
   }
   .intro {
