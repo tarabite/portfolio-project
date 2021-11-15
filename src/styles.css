@@ -76,9 +76,20 @@ p {
 }
 
 footer {
-  display: block;
+  color: var(--primary-color);
+  font-size: 24px;
   text-align: center;
-  padding: 30px;
+  text-decoration: none;
+  padding-bottom: 60px;
+}
+footer .email-link {
+  color: var(--primary-color);
+  font-size: 24px;
+  text-decoration: none;
+}
+footer .email-link:hover {
+  color: var(--secondary-color);
+  text-decoration: none;
 }
 
 @media (max-width: 576px) {
@@ -98,7 +109,7 @@ footer {
   .about-me h2 {
     font-size: 24px;
   }
-  .email-link {
+  .contact-link {
     font-size: 18px;
   }
   .intro {
